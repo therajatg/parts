@@ -1,2 +1,37 @@
-import all the fonts you'll need
-import index.css from component-styles folder (which has already imported alerts.css, avatar.css etc)
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Cabin&family=Fuzzy+Bubbles&family=Gwendolyn&family=Libre+Baskerville&family=Meow+Script&family=Mochiy+Pop+P+One&family=Mukta:wght@200;400&family=Playfair+Display:ital@1&display=swap');
+font-family: 'Arvo', serif;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*import all the fonts you'll need
+import index.css from component-styles folder (which has already imported alerts.css, avatar.css etc)*/
