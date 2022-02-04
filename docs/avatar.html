@@ -6,26 +6,123 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/styles/main-style.css">
+    <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
 </head>
 <body>
-    <div class="avatar-container basic">
-        <img class="avatar" src="/pics/avatar/1.jpg" alt="">
-        <img class="avatar" src="/pics/avatar/2.jpg" alt="">
-        <img class="avatar" src="/pics/avatar/3.jpg" alt="">
-        <img class="avatar" src="/pics/avatar/4.jpg" alt="">
-        <img class="avatar" src="/pics/avatar/6.jpg" alt="">
-        <img class="avatar" src="/pics/avatar/7.jpg" alt="">
-        <img class="avatar" src="/pics/avatar/8.jpg" alt="">
+    <nav class="navigation-bar">
+        <div class="navigation-logo"><p>parts</p></div>
+        <div class="navigation-text">
+            <p class="navigation-text-one">Docs</p>
+            <p class="navigation-text-two">Support</p>
+        </div>
+    </nav>
+
+    <hr>
+
+    <div class="sidebar">
+        <h2>Components</h2>
+        <ul>
+            <li><a href="avatar.html">Avatar</a></li>
+            <li><a href="alert.html">Alert</a></li>
+            <li><a href="badge.html">Badge</a></li>
+            <li><a href="button.html">Button</a></li>
+            <li><a href="card.html">Card</a></li>
+            <li><a href="image.html">Image</a></li>
+            <li><a href="input.html">Input</a></li>
+            <li><a href="text-utilities.html">Text Utilities</a></li>
+            <li><a href="lists.html">Lists</a></li>
+            <li><a href="navigation.html">Navigation</a></li>
+            <li><a href="modal.html">Modal</a></li>
+            <li><a href="rating.html">Rating</a></li>
+            <li><a href="toast.html">Toast/ Notify/ Snackbar</a></li>
+            <li><a href="simplified-grid.html">Simplified Grid</a></li>
+            <li><a href="navigation.html">Navigation</a></li>
+            <li><a href="slider.html">Slider</a></li>
+        </ul>
     </div>
 
-    <div class="avatar-container size">
-        <img class="avatar size-one" src="/pics/avatar/1.jpg" alt="">
-        <img class="avatar size-two" src="/pics/avatar/2.jpg" alt="">
-        <img class="avatar size-three" src="/pics/avatar/3.jpg" alt="">
-        <img class="avatar size-four" src="/pics/avatar/4.jpg" alt="">
-        <img class="avatar size-five" src="/pics/avatar/6.jpg" alt="">
-        <img class="avatar size-six" src="/pics/avatar/7.jpg" alt="">
-        <img class="avatar size-seven" src="/pics/avatar/8.jpg" alt="">
+    <div class="content">
+        <div class="description">The Avatar component is used to represent a user, and displays the profile picture, initials or fallback icon. Here we made 3 types of Avatars: 
+            <p>Basic avatar icon</p>
+            <p>Fallback in case pic is not available</p>
+            <p>Avatars with different sizes</p>
+        </div>
+
+        <p>1. Basic avatar icon:</p>
+        <div class="avatar-container basic">
+            <img class="avatar avatar-one" src="/pics/avatar/2.jpg" alt="">
+            <img class="avatar avatar-two" src="/pics/avatar/4.jpg" alt="">
+            <img class="avatar avatar-three" src="/pics/avatar/6.jpg" alt="">
+            <img class="avatar avatar-four" src="/pics/avatar/7.jpg" alt="">
+            <img class="avatar avatar-five" src="/pics/avatar/8.jpg" alt="">
+        </div>
+        
+        <pre>
+            <code class="language-html">
+                &lt;div class="avatar-container basic"&gt;
+                    &lt;img class="avatar avatar-one" src="/pics/avatar/2.jpg" alt=""&gt;
+                    &lt;img class="avatar avatar-two" src="/pics/avatar/4.jpg" alt=""&gt;
+                    &lt;img class="avatar avatar-three" src="/pics/avatar/6.jpg" alt=""&gt;
+                    &lt;img class="avatar avatar-four" src="/pics/avatar/7.jpg" alt=""&gt;
+                    &lt;img class="avatar avatar-five" src="/pics/avatar/8.jpg" alt=""&gt;
+                &lt;/div&gt;
+            </code>
+        </pre>
+
+        <p>2. Fallback in case pic is not available:</p>
+        <div class="avatar-container basic">
+            <p class="avatar avatar-name avatar-one">parul</p>
+            <p class="avatar avatar-name avatar-two">rajat</p>
+            <p class="avatar avatar-name avatar-three">john</p>
+            <p class="avatar avatar-name avatar-four">IB</p>
+            <p class="avatar avatar-name avatar-five">stacy</p>
+        </div>
+
+        <pre>
+            <code class="language-html">
+                &lt;div class="avatar-container basic"&gt;
+                    &lt;p class="avatar avatar-name avatar-one"&lt;parul&gt;/p&gt;
+                    &lt;p class="avatar avatar-name avatar-two"&lt;rajat&gt;/p&gt;
+                    &lt;p class="avatar avatar-name avatar-three"&lt;john&gt;/p&gt;
+                    &lt;p class="avatar avatar-name avatar-four"&lt;IB&gt;/p&gt;
+                    &lt;p class="avatar avatar-name avatar-five"&lt;stacy&gt;/p&gt;
+                &lt;/div&gt;
+            </code>
+        </pre>
+
+        <p>3. Avatars with different sizes:</p>
+        <div class="avatar-container size">
+            <img class="avatar size-two" src="/pics/avatar/2.jpg" alt="">
+            <img class="avatar size-four" src="/pics/avatar/4.jpg" alt="">
+            <img class="avatar size-six" src="/pics/avatar/6.jpg" alt="">
+            <img class="avatar size-seven" src="/pics/avatar/7.jpg" alt="">
+            <img class="avatar size-eight" src="/pics/avatar/8.jpg" alt="">
+        </div>
+
+        <pre>
+            <code class="language-html">
+                &lt;div class="avatar-container size"&gt;
+                    &lt;img class="avatar size-two" src="/pics/avatar/2.jpg" alt=""&gt;
+                    &lt;img class="avatar size-four" src="/pics/avatar/4.jpg" alt=""&gt;
+                    &lt;img class="avatar size-six" src="/pics/avatar/6.jpg" alt=""&gt;
+                    &lt;img class="avatar size-seven" src="/pics/avatar/7.jpg" alt=""&gt;
+                    &lt;img class="avatar size-eight" src="/pics/avatar/8.jpg" alt=""&gt;
+                &lt;/div&gt;
+            </code>
+        </pre>
     </div>
+
+    <div class="footer">
+        <div class="footer-text">designed by Rajat Gupta</div> 
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/therajatg/"><img class="social-media-icon" src="/pics/social-media/linkedin.png" alt=""></a> 
+            <a href="https://twitter.com/therajatg/"><img class="social-media-icon" src="/pics/social-media/twitter.png" alt=""></a> 
+            <a href="https://github.com/therajatg"><img class="social-media-icon" src="/pics/social-media/github.png" alt=""></a> 
+        </div>
+        
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
 </body>
 </html>
