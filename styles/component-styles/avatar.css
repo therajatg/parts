@@ -1,1 +1,60 @@
-cas ma.
+body{
+    /* height: 100vh;
+    display: flex; */
+    /* align-items: center;
+    flex-direction: column;
+    justify-content: space-around;*/
+}
+
+.avatar-container{
+    display: flex;
+    width: 80vw;
+    justify-content: space-around;
+    border: 0.1px solid rgb(53, 28, 28);
+    border-radius: 3rem;
+    background-color: var(--avatar-background);
+}
+
+.basic{
+    height: 9rem;
+}
+
+.size{
+    height: 14rem;
+    align-items: flex-end;
+}
+
+.avatar{
+    object-fit: cover;
+    border-radius: 99rem;
+}
+
+.size-one{
+    height: 2rem;
+    width: 2rem;
+}
+.size-two{
+    height: 4rem;
+    width: 4rem;
+}
+.size-three{
+    height: 6rem;
+    width: 6rem;
+}
+.size-four{
+    height: 8rem;
+    width: 8rem;
+}
+.size-five{
+    height: 10rem;
+    width: 10rem;
+}
+.size-six{
+    height: 12rem;
+    width: 12rem;
+}
+.size-seven{
+    height: 14rem;
+    width: 14rem;
+}
+
