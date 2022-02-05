@@ -41,6 +41,7 @@ body{
     color: var(--primary-color);
     font-family: var(--general-font);
     display: grid;
+    width: 100vw;
     grid-template-areas: 'navigation navigation navigation navigation'
                         'sidebar content content content'
                         'sidebar content content content'
@@ -82,6 +83,10 @@ body{
     align-items: center;
     row-gap: 6rem;
 } 
+
+.description{
+    overflow-x: auto;
+}
 
 .footer{
     grid-area: footer;
@@ -136,14 +141,14 @@ body{
     margin-bottom: 0;
 }
 
-@media screen and (min-width: 48em) {
+@media screen and (max-width: 48em) {
     body {
-      grid-template-columns: 1fr;
-      gap: 2rem;
+        grid-template-areas: 'navigation'
+        'sidebar'
+        'content'
+        'footer';
     }
-    .description{
-        overflow-x: auto;
-    }
+    
 
 
 

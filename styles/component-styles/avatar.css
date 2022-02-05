@@ -1,12 +1,12 @@
 .avatar-container{
     display: flex;
-    width: 80vw;
+    width: auto;
     justify-content: space-around;
     align-items: center;
     border: 0.1px solid rgb(53, 28, 28);
     border-radius: 3rem;
     background-color: var(--primary-color);
-    flex-wrap: wrap;
+    height: auto;
 }
 
 .description{
