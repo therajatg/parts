@@ -9,7 +9,9 @@
     --secondary-color: #F3F4F6;       /* everywhere else you can think of */ /*and remaining will automatically be white*/
     --general-font: 'Arvo', serif;
     --stylish-font: 'Pacifico', cursive;
-}                                      
+    overflow-x: auto;
+} 
+
 
 ul{
     list-style: none;
@@ -42,15 +44,15 @@ body{
     font-family: var(--general-font);
     display: grid;
     width: 100vw;
-    grid-template-areas: 'navigation navigation navigation navigation'
-                        'sidebar content content content'
-                        'sidebar content content content'
-                        'sidebar content content content'
-                        'sidebar content content content'
-                        'sidebar content content content'
-                        'sidebar content content content'
-                        'footer footer footer footer';
-    column-gap: 1rem;
+    grid-template-areas: 'navigation navigation'
+                        'sidebar content'
+                        'sidebar content'
+                        'sidebar content'
+                        'sidebar content'
+                        'sidebar content'
+                        'sidebar content'
+                        'footer footer';
+    column-gap: 3rem;
 }
 
 .navigation-bar{
@@ -72,6 +74,8 @@ body{
     background-color: var(--secondary-color);
     margin-top: 8rem;
     border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .content{
@@ -80,8 +84,10 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     row-gap: 6rem;
+    flex-wrap: wrap;
+    word-wrap: break-word;
 } 
 
 .description{
@@ -144,10 +150,11 @@ body{
 @media screen and (max-width: 48em) {
     body {
         grid-template-areas: 'navigation'
-        'sidebar'
-        'content'
-        'footer';
+                            'sidebar'
+                            'content'
+                            'footer';
     }
+
     
 
 

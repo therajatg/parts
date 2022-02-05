@@ -7,26 +7,21 @@
     border-radius: 3rem;
     background-color: var(--primary-color);
     height: auto;
-}
-
-.description{
-    margin-bottom: 4rem;
-}
-.basic{
-    height: 7rem;
-}
-
-.size{
-    height: 16rem;
-    align-items: flex-end;
+    flex-wrap: wrap;
 }
 
 .avatar{
     border-radius: 99rem;
-    border: 1px solid var(--hover-color);
+    border: 1px solid black;
     width: 5rem;
     height: 5rem;
 }
+
+.language-html{
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
 
 .avatar-one{
     background-color: pink;
