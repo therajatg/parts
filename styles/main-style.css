@@ -19,6 +19,19 @@ ul{
 a{
     text-decoration: none;
     color: var(--primary-color);
+    cursor: pointer;
+}
+
+a::hover{
+    background-color: var(--secondary-color);
+}
+
+button{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 1rem;
+    padding: 1rem;
+    cursor: pointer;
 }
 
 body{
@@ -63,6 +76,11 @@ body{
 .content{
     grid-area: content;
     margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 6rem;
 } 
 
 .footer{
@@ -113,12 +131,25 @@ body{
     padding: 0rem 0.5rem;
 }
 
+.footer-getstarted-page{
+    position: absolute;
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 48em) {
+    body {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+    .description{
+        overflow-x: auto;
+    }
 
 
 
 
-/* 
 
 
-import all the fonts you'll need
+
+/* import all the fonts you'll need
 import index.css from component-styles folder (which has already imported alerts.css, avatar.css etc) */
