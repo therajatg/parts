@@ -1,13 +1,13 @@
 .avatar-container{
     display: flex;
-    width: auto;
-    justify-content: space-around;
+    /* width: auto;  */
+    justify-content: space-around; 
     align-items: center;
     border: 0.1px solid rgb(53, 28, 28);
     border-radius: 3rem;
     background-color: var(--primary-color);
-    height: auto;
-    flex-wrap: wrap;
+    /* height: auto;
+    flex-wrap: wrap; */
 }
 
 .avatar{
@@ -17,11 +17,11 @@
     height: 5rem;
 }
 
-.language-html{
+/* .language-html{
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
-
+*/
 
 .avatar-one{
     background-color: pink;
@@ -85,4 +85,3 @@
     height: 16rem;
     width: 16rem;
 }
-

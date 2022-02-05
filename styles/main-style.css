@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
-@import url(./component-styles/index.css);
+@import url('./component-styles/index.css');
 
 :root {
     --primary-color: #111827;          /* For text, buttons, component backgrounds (avatar background), logo */
@@ -39,7 +39,6 @@ button{
 body{
     margin: 0;
     padding: 0;
-    font-size: 16px;
     color: var(--primary-color);
     font-family: var(--general-font);
     display: grid;
@@ -88,7 +87,7 @@ body{
     row-gap: 6rem;
     flex-wrap: wrap;
     word-wrap: break-word;
-} 
+}  
 
 .description{
     overflow-x: auto;
