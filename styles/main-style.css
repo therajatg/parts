@@ -1,37 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Cabin&family=Fuzzy+Bubbles&family=Gwendolyn&family=Libre+Baskerville&family=Meow+Script&family=Mochiy+Pop+P+One&family=Mukta:wght@200;400&family=Playfair+Display:ital@1&display=swap');
-font-family: 'Arvo', serif;
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('./component-styles/index.css');
+
+:root {
+    --primary-color: #111827;          /* For text, buttons, component backgrounds (avatar background), logo */
+    --secondary-color: #F3F4F6;       /* everywhere else you can think of */ /*and remaining will automatically be white*/
+    --general-font: 'Arvo', serif;
+    --stylish-font: 'Pacifico', cursive;
+} 
+
+body{
+    margin: 0;
+    padding: 0;
+    color: var(--primary-color);
+    font-family: var(--general-font);
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondary-color);
+}
+
+.sidebar-and-content{
+    display: flex;
+}
+
+.nav-links > span, .logo{
+    padding: 0 10px;
+}
+
+.logo{
+    font-family: var(--stylish-font);
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+a::hover{
+    background-color: var(--secondary-color);
+}
+
+button{
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.sidebar{
+    background-color: var(--secondary-color);
+}
+
+.content{
+    
+}  
 
 
+.footer{
+    background-color: var(--secondary-color);
+}
+    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*import all the fonts you'll need
-import index.css from component-styles folder (which has already imported alerts.css, avatar.css etc)*/
