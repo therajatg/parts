@@ -1,2 +1,1 @@
-# parts
- This is the component library for all the style requirements
+Here I made the avatar component for my component library.
