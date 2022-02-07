@@ -1,0 +1,65 @@
+.avatar-container{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    border-radius: 3rem;
+    background-color: var(--primary-color);
+    flex-wrap: wrap; 
+}
+
+.avatar{
+    border-radius: 99rem;
+    border: 1px solid black;
+    width: 6rem;
+    height: 6rem;
+}
+
+.avatar-one{
+    background-color: pink;
+}
+
+.avatar-two{
+    background-color: lightslategray;
+}
+
+
+.avatar-three{
+    background-color: lightskyblue;
+}
+
+    
+.avatar-four{
+    background-color: lightseagreen;
+}
+
+    
+.avatar-five{
+    background-color: lightgrey;
+}
+
+.avatar-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.size-small{
+    height: 3rem;
+    width: 3rem;
+}
+.size-medium{
+    height: 7rem;
+    width: 7rem;
+}
+.size-l{
+    height: 11rem;
+    width: 11rem;
+}
+.size-xl{
+    height: 15rem;
+    width: 15rem;
+}
+.size-xxl{
+    height: 19rem;
+    width: 19rem;
+}
