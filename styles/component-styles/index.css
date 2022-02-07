@@ -1,1 +1,14 @@
-@import avatar.css
+@import url("avatar.css");
+@import url("alert.css");
+@import url("badge.css");
+@import url("button.css");
+@import url("card.css");
+@import url("image.css");
+@import url("input.css");
+@import url("text-utilities.css");
+@import url("lists.css");
+@import url("navigation.css");
+@import url("modal.css");
+@import url("rating.css");
+@import url("toast.css");
+@import url("simplified-grid.css");
