@@ -7,37 +7,10 @@
 :root {
     --primary-color: #111827;          /* For text, buttons, component backgrounds (avatar background), logo */
     --secondary-color: #F3F4F6;       /* everywhere else you can think of */ /*and remaining will automatically be white*/
+    --hover-color: #D1D5D8;
     --general-font: 'Arvo', serif;
     --stylish-font: 'Pacifico', cursive;
 } 
-
-body{
-    margin: 0;
-    padding: 0;
-    color: var(--primary-color);
-    font-family: var(--general-font);
-    display: flex;
-    flex-direction: column;
-}
-
-.navigation{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--secondary-color);
-}
-
-.sidebar-and-content{
-    display: flex;
-}
-
-.nav-links > span, .logo{
-    padding: 0 10px;
-}
-
-.logo{
-    font-family: var(--stylish-font);
-}
 
 ul{
     list-style: none;
@@ -49,28 +22,81 @@ a{
     cursor: pointer;
 }
 
-a::hover{
+a:hover{
+    background-color: var(--hover-color);
+    border-radius: 2rem;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    color: var(--primary-color);
+    font-family: var(--general-font);
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    /* justify-content: center; */
+}
+
+.language-html{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: var(--secondary-color);
 }
+
+.sidebar-and-description{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+}
+
+.nav-links > span, .logo{
+    padding: 0 2rem;
+}
+
+.logo{
+    font-family: var(--stylish-font);
+}
+
 
 button{
     background-color: var(--primary-color);
     border-radius: 1rem;
     padding: 1rem;
     cursor: pointer;
+    color: var(--secondary-color);
+    font-size: large;
 }
 
 .sidebar{
     background-color: var(--secondary-color);
+    padding: 0 2rem;
+    line-height: 1.5rem;
 }
 
-.content{
-    
-}  
-
-
-.footer{
-    background-color: var(--secondary-color);
+.get-started-page{
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-    
 
+.get-started-page> h1{
+    font-family: var(--stylish-font);
+    font-size: 7rem;
+    margin-bottom: 0;
+}
