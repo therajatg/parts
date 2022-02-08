@@ -18,28 +18,28 @@
     row-gap: 2rem;
 }
 
-.error{
+.alert-error{
     background-color: var(--error-background);
     padding: 1rem;
     border-radius: 1rem;
     border: 2px solid var(--error-border);
 }
 
-.warning{
+.alert-warning{
     background-color: var(--warning-background);
     padding: 1rem;
     border-radius: 1rem;
     border: 2px solid var(--warning-border);
 }
 
-.info{
+.alert-info{
     background-color: var(--info-background);
     padding: 1rem;
     border-radius: 1rem;
     border: 2px solid var(--info-border);
 }
 
-.success{
+.alert-success{
     background-color: var(--success-background);
     padding: 1rem;
     border-radius: 1rem;

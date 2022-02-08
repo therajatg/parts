@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
-@import url('../component-styles/index.css');
+@import url('component-styles/index.css');
 
 :root {
     --primary-color: #111827;          /* For text, buttons, component backgrounds (avatar background), logo */
