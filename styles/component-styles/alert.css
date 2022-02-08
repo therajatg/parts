@@ -1,3 +1,16 @@
+:root{
+    --error-background: #ff4040;
+    --error-border: darkred;
+    --warning-background: #fff44f;
+    --warning-border: #ebeb00;
+    --info-background: skyblue;
+    --info-border: blue;
+    --success-background: lightgreen;
+    --success-border: green;
+
+}
+
+
 .alert-container{
     padding: 2rem;
     display: flex;
@@ -6,29 +19,29 @@
 }
 
 .error{
-    background-color: #ff4040;
+    background-color: var(--error-background);
     padding: 1rem;
     border-radius: 1rem;
-    border: 2px solid darkred;
+    border: 2px solid var(--error-border);
 }
 
 .warning{
-    background-color: #fff44f;
+    background-color: var(--warning-background);
     padding: 1rem;
     border-radius: 1rem;
-    border: 2px solid #ebeb00;
-}
-
-.success{
-    background-color: lightgreen;
-    padding: 1rem;
-    border-radius: 1rem;
-    border: 2px solid green;
+    border: 2px solid var(--warning-border);
 }
 
 .info{
-    background-color: skyblue;
+    background-color: var(--info-background);
     padding: 1rem;
     border-radius: 1rem;
-    border: 2px solid blue;
+    border: 2px solid var(--info-border);
+}
+
+.success{
+    background-color: var(--success-background);
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 2px solid var(--success-border);
 }
