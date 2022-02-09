@@ -73,16 +73,6 @@ body{
     font-family: var(--stylish-font);
 }
 
-
-/* button{
-    background-color: var(--primary-color);
-    border-radius: 1rem;
-    padding: 1rem;
-    cursor: pointer;
-    color: var(--secondary-color);
-    font-size: large;
-} */
-
 .sidebar{
     background-color: var(--secondary-color);
     padding: 0 2rem;

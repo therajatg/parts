@@ -1,5 +1,5 @@
 :root{
-    --add-to-card-btn-color: #4267B2;
+    --add-to-cart-btn-color: #4267B2;
     --delete-btn-color: #D11A2A;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .add-to-cart-button{
-    background-color: var(--add-to-card-btn-color);
+    background-color: var(--add-to-cart-btn-color);
 }
 
 .delete-button{
