@@ -13,7 +13,7 @@
 <body>
     <nav class="navigation">
         <a href="https://github.com/therajatg/parts"><h2 class="logo">parts</h2></a>
-        <div class="nav-links">
+         <div class="nav-links">
             <span><a href="https://github.com/therajatg/parts">Docs</a></span><span><a href="https://github.com/therajatg/parts">Github</a></span>
         </div>
     </nav>
@@ -40,12 +40,12 @@
         </div>
         <div class="description">
             <h3>Card</h3>
-            <h4>Buttons allow users to take actions, and make choices, with a single tap. Buttons are a quite frequent occurance in most websites  such as in e-commerce sites for buying an item or adding an item to the cart, in social media sites to follow or connect with someone or as call-to-action element in most fo the sites. Various types of buttons are as follows: </h4>
-            <h4>1. Text only card</h4>
-            <h4>2. Vertical card</h4>
-            <h4>3. Horizontal card</h4>
-            <h4>4. Card with text overlay</h4>
-            <h4>5. Card with shadow</h4>
+            <p>A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options. for example product display on an ecommerce website is generally a card component. Below are few variations of card component: </p>
+            <p>1. Text only card</p>
+            <p>2. Card with shadow</p>
+            <p>3. Vertical card</p>
+            <p>4. Horizontal card</p>
+            <p>5. Card with text overlay</p>
         </div>
     </div>
     
@@ -58,10 +58,10 @@
         </div>
         <pre>
             <code class="language-html">
-                &lt;div class="button-container"&gt;
-                    &lt;a href="#" class="button-text"&gt;TEXT&lt;/a&gt;
-                    &lt;a href="#"&gt;&lt;button class="button-contained"&gt;CONTAINED&lt;/button&gt;&lt;/a&gt;
-                    &lt;a href="#"&gt;&lt;button class="button-outlined"&gt;OUTLINED&lt;/button&gt;&lt;/a&gt;
+                &lt;div class="card-container"&gt;
+                    &lt;h2&gt;Card Title&lt;h2&gt;
+                    &lt;h3&gt;Card Subtitle&lt;/h3&gt;
+                    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorib&lt;/p&gt;
                 &lt;/div&gt;
             </code>
         </pre>
@@ -76,29 +76,109 @@
         </div>
         <pre>
             <code class="language-html">
-                &lt;div class="button-container"&gt;
-                    &lt;a href="#" class="button-contained add-to-cart-button"&gt;&lt;i class="fa-solid fa-cart-arrow-down"&gt;&lt;/i&gt;Add to Cart&lt;/a&gt;
-            
-                    &lt;a href="#"class="button-contained delete-button"&gt;&lt;i class="fa-solid fa-trash"&gt;&lt;/i&gt;Delete&lt;/a&gt;
-                
-                    &lt;a href="#"&gt;&lt;i class="fa-solid fa-paper-plane"&gt;&lt;/i&gt;&lt;/i&gt;&lt;/a&gt;
-                
-                    &lt;a href="#"&gt;&lt;i class="fa-solid fa-bookmark"&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;div class="card-container card-with-shadow"&gt;
+                    &lt;h2&gt;Card Title&lt;/h2&gt;
+                    &lt;h3&gt;Card Subtitle&lt;/h3&gt;
+                    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribu&lt;/p&gt;
                 &lt;/div&gt;
             </code>
         </pre>
     </div>
     
-    
     <div class="content">
-        <p>3. FLOATING ACTION BUTTON:</p>
-        <div class="card-container">
-            <a href="#" class="button-contained floating-action-button">+</a>
+        <p>3. Vertical Card:</p>
+        <div class="card-container vertical-card">
+            <img src="/pics/product/woodland shoe.jpg">
+            <div>
+                <h2>Woodland Shoes</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quae dolor ut reprehenderit</p>
+                <h2>&#8377; 4999</h2>
+            </div>
+            <div class="cta">
+                <a href="#" class="button-contained add-to-cart-button"><i class="fa-solid fa-cart-arrow-down"></i>Add To Cart</a>
+                <a href="#"class="button-contained delete-button"></i>Buy Now</a>
+            </div>
         </div>
         <pre>
             <code class="language-html">
-                &lt;div class="button-container"&gt;
-                    &lt;a href="#" class="button-contained floating-action-button"&gt;+&lt;/a&gt;
+                &lt;div class="card-container vertical-card"&gt;
+                    &lt;img src="/pics/product/woodland shoe.jpg"&gt;
+                    &lt;div&gt;
+                        &lt;h2&gt;Woodland Shoes&lt;/h2&gt;
+                        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quae dolor ut reprehenderit&lt;/p&gt;
+                        &lt;h2&gt;&#8377; 4999&lt;/h2&gt;
+                    &lt;/div&gt;
+                    &lt;div class="cta"&gt;
+                        &lt;a href="#" class="button-contained add-to-cart-button"&gt;&lt;i class="fa-solid fa-cart-arrow-down"&gt;&lt;/i&gt;Add To Cart&lt;/a&gt;
+                        &lt;a href="#"class="button-contained delete-button"&gt;&lt;/i&gt;Buy Now&lt;/a&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            </code>
+        </pre>
+    </div>
+
+    <div class="content">
+        <p>4. Horizontal Card:</p>
+        <div class="horizontal-card">
+            <img src="/pics/product/woodland shoe.jpg">
+            <div class="horizontal-card-text">
+                <h2>Woodland Shoes</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, autem ut! Ab, optio laboriosam dicta quos impedit magnam nemo facere eligendi iste, velit ipsam, obcaecati similique modi id! Quo modi ullam neque aut similique quos perferendis assumenda ut, reprehenderit doloremque dolorum, at numquam minima sed?</p>
+                <h2>&#8377; 4999</h2>
+                <div class="cta">
+                    <a href="#" class="button-contained add-to-cart-button"><i class="fa-solid fa-cart-arrow-down"></i>Add To Cart</a>
+                    <a href="#"class="button-contained delete-button"></i>Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <pre>
+            <code class="language-html">
+                &lt;div class="horizontal-card"&gt;
+                    &lt;img src="/pics/product/woodland shoe.jpg"&gt;
+                    &lt;div class="horizontal-card-text"&gt;
+                        &lt;h2&gt;Woodland Shoes&lt;/h2&gt;
+                        &lt;p&gt;Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, au&lt;/p&gt;
+                        &lt;h2&gt;&#8377; 4999&lt;/h2&gt;
+                        &lt;div class="cta"&gt;
+                            &lt;a href="#" class="button-contained add-to-cart-button"&gt;&lt;i class="fa-solid fa-cart-arrow-down"&gt;&lt;/i&gt;Add To Cart&lt;/a&gt;
+                            &lt;a href="#"class="button-contained delete-button"&gt;&lt;/i&gt;Buy Now&lt;/a&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            </code>
+        </pre>
+    </div>
+
+    <div class="content">
+        <p>5. Card With Text Overlay:</p>
+        <div class="card-container vertical-card card-text-overlay">
+            <img src="/pics/product/woodland shoe.jpg">
+            <div>
+                <h2>Woodland Shoes</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quae dolor ut reprehenderit</p>
+                <h2>&#8377; 4999</h2>
+            </div>
+            <div class="cta">
+                <a href="#" class="button-contained add-to-cart-button"><i class="fa-solid fa-cart-arrow-down"></i>Add To Cart</a>
+                <a href="#"class="button-contained delete-button"></i>Buy Now</a>
+            </div>
+        </div>
+        <p class="out-of-stock-text">OUT OF STOCK</p>
+        <pre>
+            <code class="language-html">
+                &lt;div class="card-container vertical-card card-text-overlay"&gt;
+                    &lt;img src="/pics/product/woodland shoe.jpg"&gt;
+                    &lt;div&gt;
+                        &lt;h2&gt;Woodland Shoes&lt;/h2&gt;
+                        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quae dolor ut reprehenderit&lt;/p&gt;
+                        &lt;h2&gt;&#8377; 4999&lt;/h2&gt;
+                    &lt;/div&gt;
+                    &lt;div class="cta"&gt;
+                        &lt;a href="#" class="button-contained add-to-cart-button"&gt;&lt;i class="fa-solid fa-cart-arrow-down"&gt;&lt;/i&gt;Add To Cart&lt;/a&gt;
+                        &lt;a href="#"class="button-contained delete-button"&gt;&lt;/i&gt;Buy Now&lt;/a&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;p class="out-of-stock-text"&gt;OUT OF STOCK&lt;/p&gt;
                 &lt;/div&gt;
             </code>
         </pre>
