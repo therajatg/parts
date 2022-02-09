@@ -1,0 +1,38 @@
+.badge-container{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    background-color: var(--primary-color);
+    flex-wrap: wrap; 
+}
+
+.badge{
+    background-color: red;
+    height: 22px;
+    width: 22px;
+    display: flex;
+    border-radius: 99rem;
+    justify-content: center;
+    align-content: center;
+    color: var(--secondary-color);
+}
+
+.icon-badge{
+    transform: translate(-100%, -80%);
+}
+
+.avatar-badge{
+    transform: translate(-80%, 110%);
+}
+
+.badge-container>div{
+    display: flex;
+    align-items: center;
+}
+
+.avatar{
+    border-radius: 99rem;
+    border: 1px solid black;
+    width: 6rem;
+    height: 6rem;
+}
