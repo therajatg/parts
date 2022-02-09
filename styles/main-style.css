@@ -6,8 +6,9 @@
 
 :root {
     --primary-color: #111827;          /* For text, buttons, component backgrounds (avatar background), logo */
-    --secondary-color: #F3F4F6;       /* everywhere else you can think of */ /*and remaining will automatically be white*/
-    --hover-color: #D1D5D8;
+    --secondary-color: #F3F4F6;
+    --secondary-container-color: #D1D5D8;      /* everywhere else you can think of */ /*and remaining will automatically be white*/
+    --hover-color:#9ca3af;
     --general-font: 'Arvo', serif;
     --stylish-font: 'Pacifico', cursive;
 } 
@@ -16,13 +17,17 @@ ul{
     list-style: none;
 }
 
-a{
-    text-decoration: none;
-    color: var(--primary-color);
+a, button{
     cursor: pointer;
 }
 
-a:hover{
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+
+a:hover, button:hover{
     background-color: var(--hover-color);
     border-radius: 2rem;
 }
@@ -69,14 +74,14 @@ body{
 }
 
 
-button{
+/* button{
     background-color: var(--primary-color);
     border-radius: 1rem;
     padding: 1rem;
     cursor: pointer;
     color: var(--secondary-color);
     font-size: large;
-}
+} */
 
 .sidebar{
     background-color: var(--secondary-color);

@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avatar Component</title>
+    <title>Button Component</title>
     <link rel="stylesheet" href="/styles/main-style.css">
     <link rel="stylesheet"
     href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
+    <script src="https://kit.fontawesome.com/44c4f0d450.js" crossorigin="anonymous"></script>  
 </head>
 <body>
     <nav class="navigation">
@@ -41,49 +42,51 @@
             <h3>Button</h3>
             <h4>Buttons allow users to take actions, and make choices, with a single tap. Buttons are a quite frequent occurance in most websites  such as in e-commerce sites for buying an item or adding an item to the cart, in social media sites to follow or connect with someone or as call-to-action element in most fo the sites. Various types of buttons are as follows: </h4>
             <h4>1. Basic button- text, contained, outlined</h4>
-            <h4>2. Buttons with icons and label</h4>
-            <h4>3. Icon button</h4>
+            <h4>2. Icon button</h4>
+            <h4>3. Floating action button: A floating action button (FAB) performs the primary, or most common, action on a screen. It appears in front of all screen content, typically as a circular shape with an icon in its center.</h4>
             <h4></h4>
         </div>
     </div>
     
     <div class="content">
         <p>1. Basic button:</p>
-        <div class="avatar-container">
-            <button>TEXT</button>
-            <button>CONTAINED</button>
-            <button>OUTLINED</button>
+        <div class="button-container">
+            <a href="#" class="button-text">TEXT</a>
+            <a href="#"><button class="button-contained">CONTAINED</button></a>
+            <a href="#"><button class="button-outlined">OUTLINED</button></a>
         </div>
         <pre>
             <code class="language-html">
-                &lt;div class="avatar-container"&gt;
-                    &lt;img class="avatar avatar-one" src="pic source"&gt;
-                    &lt;img class="avatar avatar-two" src="pic source"&gt;
-                    &lt;img class="avatar avatar-three" src="pic source"&gt;
-                    &lt;img class="avatar avatar-four" src="pic source"&gt;
-                    &lt;img class="avatar avatar-five" src="pic source"&gt;
+                &lt;div class="button-container"&gt;
+                    &lt;a href="#" class="button-text"&gt;TEXT&lt;/a&gt;
+                    &lt;a href="#"&gt;&lt;button class="button-contained"&gt;CONTAINED&lt;/button&gt;&lt;/a&gt;
+                    &lt;a href="#"&gt;&lt;button class="button-outlined"&gt;OUTLINED&lt;/button&gt;&lt;/a&gt;
                 &lt;/div&gt;
             </code>
         </pre>
     </div>
     
     <div class="content">
-        <p>2. bUTTONS WITH ICONS AND LABEL:</p>
-        <div class="avatar-container">
-            <p class="avatar avatar-name avatar-one">Delete</p>
-            <p class="avatar avatar-name avatar-two">rajat</p>
-            <p class="avatar avatar-name avatar-three">john</p>
-            <p class="avatar avatar-name avatar-four">IB</p>
-            <p class="avatar avatar-name avatar-five">stacy</p>
+        <p>2. ICON BUTTON:</p>
+        <div class="button-container">
+            <a href="#" class="button-contained add-to-cart-button"><i class="fa-solid fa-cart-arrow-down"></i>Add to Cart</a>
+
+            <a href="#"class="button-contained delete-button"><i class="fa-solid fa-trash"></i>Delete</a>
+            
+            <a href="#"><i class="fa-solid fa-paper-plane"></i></i></a>
+            
+            <a href="#"><i class="fa-solid fa-bookmark"></i></a>
         </div>
         <pre>
             <code class="language-html">
-                &lt;div class="avatar-container"&gt;
-                    &lt;p class="avatar avatar-name avatar-one"&lt;parul&gt;/p&gt;
-                    &lt;p class="avatar avatar-name avatar-two"&lt;rajat&gt;/p&gt;
-                    &lt;p class="avatar avatar-name avatar-three"&lt;john&gt;/p&gt;
-                    &lt;p class="avatar avatar-name avatar-four"&lt;IB&gt;/p&gt;
-                    &lt;p class="avatar avatar-name avatar-five"&lt;stacy&gt;/p&gt;
+                &lt;div class="button-container"&gt;
+                    &lt;a href="#" class="button-contained add-to-cart-button"&gt;&lt;i class="fa-solid fa-cart-arrow-down"&gt;&lt;/i&gt;Add to Cart&lt;/a&gt;
+            
+                    &lt;a href="#"class="button-contained delete-button"&gt;&lt;i class="fa-solid fa-trash"&gt;&lt;/i&gt;Delete&lt;/a&gt;
+                
+                    &lt;a href="#"&gt;&lt;i class="fa-solid fa-paper-plane"&gt;&lt;/i&gt;&lt;/i&gt;&lt;/a&gt;
+                
+                    &lt;a href="#"&gt;&lt;i class="fa-solid fa-bookmark"&gt;&lt;/i&gt;&lt;/a&gt;
                 &lt;/div&gt;
             </code>
         </pre>
@@ -91,22 +94,14 @@
     
     
     <div class="content">
-        <p>3. Avatars with different sizes:</p>
-        <div class="avatar-container">
-            <img class="avatar size-small" src="/pics/avatar/avatar1.jpg">
-            <img class="avatar size-medium" src="/pics/avatar/avatar2.jpg">
-            <img class="avatar size-l" src="/pics/avatar/avatar3.jpg">
-            <img class="avatar size-xl" src="/pics/avatar/avatar4.jpg">
-            <img class="avatar size-xxl" src="/pics/avatar/avatar5.jpg">
+        <p>3. FLOATING ACTION BUTTON:</p>
+        <div class="button-container">
+            <a href="#" class="button-contained floating-action-button">+</a>
         </div>
         <pre>
             <code class="language-html">
-                &lt;div class="avatar-container"&gt;
-                    &lt;img class="avatar size-small" src="pic source" &gt;
-                    &lt;img class="avatar size-medium" src="pic source" &gt;
-                    &lt;img class="avatar size-l" src="pic source" &gt;
-                    &lt;img class="avatar size-xl" src="pic source" &gt;
-                    &lt;img class="avatar size-xxl" src="pic source" &gt;
+                &lt;div class="button-container"&gt;
+                    &lt;a href="#" class="button-contained floating-action-button"&gt;+&lt;/a&gt;
                 &lt;/div&gt;
             </code>
         </pre>

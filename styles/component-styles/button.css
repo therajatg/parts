@@ -1,0 +1,55 @@
+/* background-color: rgb(144, 202, 249); */
+
+.button-container{
+    background-color: var(--secondary-container-color);
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    flex-wrap: wrap; 
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.button-text{
+    color: var(--primary-color);
+    font-weight: 600;  
+}
+
+.button-contained{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 10px;
+    padding: 0.7rem;
+    font-weight: 600;
+}
+
+.button-outlined{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border-radius: 10px;
+    padding: 0.5rem;
+    font-weight: 600;
+}
+
+.button-icon-size{
+    height: 20px;
+    width: 20px;
+}
+
+.add-to-cart-button, .delete-button, .send-button{
+    display: flex;
+    column-gap: 8px;
+}
+
+.add-to-cart-button{
+    background-color: #4267B2;
+}
+
+.delete-button{
+    background-color: #D11A2A;
+}
+
+.floating-action-button{
+    background-color: var(--primary-color);
+    font-size: large;
+}
