@@ -1,0 +1,15 @@
+.card-container{
+    background-color: var(--secondary-container-color);
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    border: 2px solid black;
+    align-items: flex-start;
+    flex-wrap: wrap; 
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.card-with-shadow{
+    box-shadow: 5px 10px ;
+}
