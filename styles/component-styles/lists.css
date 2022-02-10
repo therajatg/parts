@@ -1,0 +1,41 @@
+.input-container{
+    display: flex;
+    row-gap: 2rem;
+    align-items: flex-start;
+    border-radius: 2rem;
+    background-color: var(--secondary-container-color);
+    flex-wrap: wrap; 
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.input-name, .input-password{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+}
+
+.name-input-field, .password-input-field, .input-dropdown{
+    border-radius: 0.5rem;
+    height: 2rem;
+}
+
+.input-field-right{
+    border: solid var(--success-border-text-color);
+}
+
+.input-field-wrong{
+    border: solid var(--error-border-text-color);
+}
+
+.right-input-validation{
+    color: var(--success-border-text-color);
+}
+
+.wrong-input-validation{
+    color: var(--error-border-text-color);
+}
+
+.input-dropdown{
+    width: 30%;
+}
