@@ -1,0 +1,21 @@
+.modal-container{
+    width: 40%;
+    display: flex;
+    row-gap: 2rem;
+    align-items: flex-start;
+    border-radius: 2rem;
+    background-color: var(--secondary-container-color);
+    flex-wrap: wrap; 
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.modal-cta{
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 2rem;
+    width: 100%;
+}
+
+
+
