@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Component</title>
+    <link rel="stylesheet" href="/styles/main-style.css">
+    <link rel="stylesheet"
+    href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
+</head>
+<body>
+    <nav class="navigation">
+        <a href="https://github.com/therajatg/parts"><h2 class="logo">parts</h2></a>
+        <div class="nav-links">
+            <span><a href="https://github.com/therajatg/parts">Docs</a></span><span><a href="https://github.com/therajatg/parts">Github</a></span>
+        </div>
+    </nav>
+
+    <div class="sidebar-and-description">
+        <div class="sidebar">
+            <h2>Components</h2>
+            <ul>
+                <li><a href="avatar.html">Avatar</a></li>
+                <li><a href="alert.html">Alert</a></li>
+                <li><a href="badge.html">Badge</a></li>
+                <li><a href="button.html">Button</a></li>
+                <li><a href="card.html">Card</a></li>
+                <li><a href="image.html">Image</a></li>
+                <li><a href="input.html">Input</a></li>
+                <li><a href="text-utilities.html">Text Utilities</a></li>
+                <li><a href="lists.html">Lists</a></li>
+                <li><a href="navigation.html">Navigation</a></li>
+                <li><a href="modal.html">Modal</a></li>
+                <li><a href="rating.html">Rating</a></li>
+                <li><a href="toast.html">Toast/Notify/Snackbar</a></li>
+                <li><a href="simplified-grid.html">Simplified Grid</a></li>
+            </ul>
+        </div>
+        <div class="description">
+            <h3>Input</h3>
+            <p>The Input component is a way by which user interacts with the webiste. We can take input from user either in writing or let user select from a list of options. Below are the various input components:</p>
+            <p>1. Basic input</p>
+            <p>2. Input with validation: used to tell user whether a input follows a set of rules or not.</p>
+            <p>3. Radio button: Radio buttons are normally presented in groups. Only one radio button in a group can be selected at the same time.</p>
+            <p>4. Checkbox: Checkbox is used to take multiple inputs for a same field.</p>
+            <p>5. Dropdown</p>
+        </div>
+    </div>
+    
+    <div class="content">
+        <p>1. Basic input:</p>
+        <div class="input-container">
+            <div class="input-name">
+                <label for="name">Name:</label>
+                <input type="text" id="name" class="name-input-field">
+            </div>
+            <div class="input-password">
+                <label for="password">Password:</label>
+                <input type="text" id="password" class="password-input-field">
+            </div>
+        </div>
+        <pre>
+            <code class="language-html">
+                &lt;div class="input-container"&gt;
+                    &lt;div class="input-name"&gt;
+                        &lt;label for="name"&gt;Name:&lt;/label&gt;
+                        &lt;input type="text" id="name" class="name-input-field"&gt;
+                    &lt;/div&gt;
+                    &lt;div class="input-password"&gt;
+                        &lt;label for="password"&gt;Password:&lt;/label&gt;
+                        &lt;input type="text" id="password" class="password-input-field"&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            </code>
+        </pre>
+    </div>
+    
+    <div class="content">
+        <p>2. Input With Validation:</p>
+        <div class="input-container">
+            <div class="input-name">
+                <label for="name">Name:</label>
+                <input type="text" id="name" class="name-input-field input-field-right">
+                <small class="right-input-validation">This username is valid</small>
+            </div>
+            <div class="input-password">
+                <label for="password">Password:</label>
+                <input type="text" id="password" class="password-input-field input-field-wrong">
+                <small class="wrong-input-validation">The username and password don't match</small>
+            </div>
+        </div>
+        <pre>
+            <code class="language-html">
+                &lt;div class="input-container"&gt;
+                    &lt;div class="input-name"&gt;
+                        &lt;label for="name"&gt;Name:&lt;/label&gt;
+                        &lt;input type="text" id="name" class="name-input-field input-field-right"&gt;
+                        &lt;small class="right-input-validation"&gt;This username is valid&lt;/small&gt;
+                    &lt;/div&gt;
+                    &lt;div class="input-password"&gt;
+                        &lt;label for="password"&gt;Password:&lt;/label&gt;
+                        &lt;input type="text" id="password" class="password-input-field input-field-wrong"&gt;
+                        &lt;small class="wrong-input-validation"&gt;The username and password don't match&lt;/small&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            </code>
+        </pre>
+    </div>
+    
+    
+    <div class="content">
+        <p>3. Radio Button:</p>
+        <div class="input-container">
+            <p>Please select your gender:</p>
+            <div>
+            <input type="radio" name="gender" value="male" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" value="others" id="others">
+            <label for="others">Others</label>
+            </div>
+        </div>
+        
+        <pre>
+            <code class="language-html">
+            &lt;div class="input-container"&gt;
+                &lt;div&gt;
+                    &lt;p&gt;Please select your gender:&lt;/p&gt;
+                    &lt;input type="radio" name="gender" value="male" id="male"&gt;
+                    &lt;label for="male"&gt;Male&lt;/label&gt;
+                    &lt;input type="radio" name="gender" value="female" id="female"&gt;
+                    &lt;label for="female"&gt;Female&lt;/label&gt;
+                    &lt;input type="radio" name="gender" value="others" id="others"&gt;
+                    &lt;label for="others"&gt;Others&lt;/label&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            </code>
+        </pre>
+    </div>
+
+    <div class="content">
+        <p>4. Check Box:</p>
+        <div class="input-container">
+            <p>Please select the type:</p>
+            <div>
+            <input type="checkbox" name="shoes" id="sports" value="sports">
+            <label for="sports">Sports Shoes</label>
+            <input type="checkbox" name="shoes" id="boots" value="boots">
+            <label for="boots">Boots</label>
+            <input type="checkbox" name="shoes" id="formal" value="formal">
+            <label for="formal">Formal Shoes</label>
+            <input type="checkbox" name="shoes" id="sneakers" value="sneakers">
+            <label for="sneakers">Sneakers</label>
+            </div>
+        </div>
+        <pre>
+            <code class="language-html">
+            &lt;div class="input-container"&gt;
+                &lt;div&gt;
+                    &lt;p&gt;Please select the type:&lt;/p&gt;
+                    &lt;input type="checkbox" name="shoes" id="sports" value="sports"&gt;
+                    &lt;label for="sports"&gt;Sports Shoes&lt;/label&gt;
+                    &lt;input type="checkbox" name="shoes" id="boots" value="boots"&gt;
+                    &lt;label for="boots"&gt;Boots&lt;/label&gt;
+                    &lt;input type="checkbox" name="shoes" id="formal" value="formal"&gt;
+                    &lt;label for="formal"&gt;Formal Shoes&lt;/label&gt;
+                    &lt;input type="checkbox" name="shoes" id="sneakers" value="sneakers"&gt;
+                    &lt;label for="sneakers"&gt;Sneakers&lt;/label&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            </code>
+        </pre>
+    </div>
+
+    <div class="content">
+        <p>5. Dropdown:</p>
+        <div class="input-container">
+            <label for="payment">Select your mode of payment:</label>
+            <select name="payment" id="payment" class="input-dropdown">
+                <option value="upi">UPI</option>
+                <option value="net">Net Banking</option>
+                <option value="credit">Credit Card</option>
+                <option value="debit">Debit Card</option>
+                <option value="wallet">Wallet</option>
+                <option value="paypal">Paypal</option>
+            </select>
+        </div>
+        <pre>
+            <code class="language-html">
+                &lt;div class="input-container"&gt;
+                    &lt;label for="payment"&gt;Select your mode of payment:&lt;/label&gt;
+                    &lt;select name="payment" id="payment" class="input-dropdown"&gt;
+                        &lt;option value="upi"&gt;UPI&lt;/option&gt;
+                        &lt;option value="net"&gt;Net Banking&lt;/option&gt;
+                        &lt;option value="credit"&gt;Credit Card&lt;/option&gt;
+                        &lt;option value="debit"&gt;Debit Card&lt;/option&gt;
+                        &lt;option value="wallet"&gt;Wallet&lt;/option&gt;
+                        &lt;option value="paypal"&gt;Paypal&lt;/option&gt;
+                    &lt;/select&gt;
+                &lt;/div&gt;
+            </code>
+        </pre>
+    </div>
+
+    <div class="footer">
+        <div>designed by Rajat Gupta</div> 
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/therajatg/"><img class="social-media-icon" src="/pics/social-media/linkedin.png"></a> 
+            <a href="https://twitter.com/therajatg/"><img class="social-media-icon" src="/pics/social-media/twitter.png"></a> 
+            <a href="https://github.com/therajatg"><img class="social-media-icon" src="/pics/social-media/github.png"></a> 
+        </div>
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+</html>
