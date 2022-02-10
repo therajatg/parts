@@ -5,30 +5,27 @@
     row-gap: 2rem;
 }
 
-.alert-error{
-    background-color: var(--error-background-color);
+.alert-layout{
     padding: 1rem;
     border-radius: 1rem;
+}
+
+.alert-error{
+    background-color: var(--error-background-color);
     border: 2px solid var(--error-border-text-color);
 }
 
 .alert-warning{
     background-color: var(--warning-background-color);
-    padding: 1rem;
-    border-radius: 1rem;
     border: 2px solid var(--warning-border-text-color);
 }
 
 .alert-info{
     background-color: var(--info-background-color);
-    padding: 1rem;
-    border-radius: 1rem;
     border: 2px solid var(--info-border-text-color);
 }
 
 .alert-success{
     background-color: var(--success-background-color);
-    padding: 1rem;
-    border-radius: 1rem;
     border: 2px solid var(--success-border-text-color);
 }
