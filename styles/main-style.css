@@ -13,10 +13,6 @@
     --stylish-font: 'Pacifico', cursive;
 } 
 
-ul{
-    list-style: none;
-}
-
 a, button{
     cursor: pointer;
 }
