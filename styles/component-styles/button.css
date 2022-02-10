@@ -49,7 +49,7 @@
 }
 
 .delete-button{
-    background-color: var(--delete-btn-color;) 
+    background-color: var(--delete-btn-color); 
 }
 
 .floating-action-button{
