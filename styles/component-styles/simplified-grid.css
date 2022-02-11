@@ -1,0 +1,21 @@
+.grid-container{
+    display: grid;
+    border-radius: 1rem;
+    background-color: var(--secondary-container-color);
+    padding: 2rem;
+    width: 80%;
+    height: 20rem;
+    gap: 1.5rem;
+}
+
+.grid-columns-two{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-columns-three{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.child1, .child2, .child3{
+    background-color: var(--error-background-color);
+}
