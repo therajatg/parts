@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Component</title>
+    <link rel="stylesheet" href="/styles/main-style.css">
+    <link rel="stylesheet"
+    href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
+</head>
+<body>
+    <nav class="navigation">
+        <a href="https://github.com/therajatg/parts"><h2 class="logo">parts</h2></a>
+        <div class="nav-links">
+            <span><a href="https://github.com/therajatg/parts">Docs</a></span><span><a href="https://github.com/therajatg/parts">Github</a></span>
+        </div>
+    </nav>
+
+    <div class="sidebar-and-description">
+        <div class="sidebar">
+            <h2>Components</h2>
+            <ul>
+                <li><a href="avatar.html">Avatar</a></li>
+                <li><a href="alert.html">Alert</a></li>
+                <li><a href="badge.html">Badge</a></li>
+                <li><a href="button.html">Button</a></li>
+                <li><a href="card.html">Card</a></li>
+                <li><a href="image.html">Image</a></li>
+                <li><a href="input.html">Input</a></li>
+                <li><a href="text-utilities.html">Text Utilities</a></li>
+                <li><a href="list.html">List</a></li>
+                <li><a href="navigation.html">Navigation</a></li>
+                <li><a href="modal.html">Modal</a></li>
+                <li><a href="rating.html">Rating</a></li>
+                <li><a href="toast.html">Toast/Notify/Snackbar</a></li>
+                <li><a href="simplified-grid.html">Simplified Grid</a></li>
+            </ul>
+        </div>
+        <div class="description">
+            <h3>List</h3>
+            <p>As the name suggests it is a list of items, major types of lists are as follows:</p>
+            <p>1. Basic list: They can ordered(numbers) or unordered(bullets).</p>
+            <p>2. Bullet-less list: bullets or numbers are removed from the basic list.</p>
+            <p>3. Horizontal list: Rather than rendering vertically, this list renders horizontally (along x-axis.)</p>
+            <p>4. Stacked list: Best example of these lists is a notifications tab in any app.</p>
+        </div>
+    </div>
+    
+    <div class="content">
+        <p>1. Normal List:</p>
+        <div class="list-container">
+            <ul class="list-line-height">
+                <li>Banana</li>
+                <li>Apple</li>
+                <li>Mango</li>
+                <li>Orange</li>
+            </ul>
+        </div>
+        <pre>
+            <code class="language-html">
+                &lt;ul class="list-line-height"&gt;
+                    &lt;li&gt;Banana&lt;/li&gt;
+                    &lt;li&gt;Apple&lt;/li&gt;
+                    &lt;li&gt;Mango&lt;/li&gt;
+                    &lt;li&gt;Orange&lt;/li&gt;
+                &lt;/ul&gt;
+            </code>
+        </pre>
+    </div>
+    
+    <div class="content">
+        <p>2. Bullet-less List:</p>
+        <div class="list-container">
+            <ul class="list-line-height list-style">
+                <li>Banana</li>
+                <li>Apple</li>
+                <li>Mango</li>
+                <li>Orange</li>
+            </ul>
+        </div>
+        <pre>
+            <code class="language-html">
+                &lt;ul class="list-line-height list-style"&gt;
+                    &lt;li&gt;Banana&lt;/li&gt;
+                    &lt;li&gt;Apple&lt;/li&gt;
+                    &lt;li&gt;Mango&lt;/li&gt;
+                    &lt;li&gt;Orange&lt;/li&gt;
+                &lt;/ul&gt;
+            </code>
+        </pre>
+    </div>
+    
+    
+    <div class="content">
+        <p>3. Horizontal List:</p>
+        <div class="list-container">
+            <ul class="list-horizontal">
+                <li>Banana</li>
+                <li>Apple</li>
+                <li>Mango</li>
+                <li>Orange</li>
+            </ul>
+        </div>
+        <pre>
+            <code class="language-html">
+                &lt;ul class="list-horizontal"&gt;
+                    &lt;li&gt;Banana&lt;/li&gt;
+                    &lt;li&gt;Apple&lt;/li&gt;
+                    &lt;li&gt;Mango&lt;/li&gt;
+                    &lt;li&gt;Orange&lt;/li&gt;
+                &lt;/ul&gt;
+            </code>
+        </pre>
+    </div>
+
+    <div class="content">
+        <p>4. Stacked List:</p>
+            <div class="input-container">
+                <ul>
+                    <li class = "stacked-list-item">Lorem Lorem ipsum dolor sit amet.</li>
+                    <li class = "stacked-list-item">Lorem Lorem ipsum dolor sit amet.</li>
+                    <li class = "stacked-list-item">Lorem Lorem ipsum dolor sit amet.</li>
+                    <li class = "stacked-list-item">Lorem Lorem ipsum dolor sit amet.</li>
+                    <li class = "stacked-list-item">Lorem Lorem ipsum dolor sit amet.</li>
+                </ul>
+            </div>
+        <pre>
+            <code class="language-html">
+                &lt;ul&gt;
+                    &lt;li class = "stacked-list-item"&gt;Lorem Lorem ipsum dolor sit amet.&lt;/li&gt;
+                    &lt;li class = "stacked-list-item"&gt;Lorem Lorem ipsum dolor sit amet.&lt;/li&gt;
+                    &lt;li class = "stacked-list-item"&gt;Lorem Lorem ipsum dolor sit amet.&lt;/li&gt;
+                    &lt;li class = "stacked-list-item"&gt;Lorem Lorem ipsum dolor sit amet.&lt;/li&gt;
+                    &lt;li class = "stacked-list-item"&gt;Lorem Lorem ipsum dolor sit amet.&lt;/li&gt;
+                &lt;/ul&gt;
+            </code>
+        </pre>
+    </div>
+
+    <div class="footer">
+        <div>designed by Rajat Gupta</div> 
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/therajatg/"><img class="social-media-icon" src="/pics/social-media/linkedin.png"></a> 
+            <a href="https://twitter.com/therajatg/"><img class="social-media-icon" src="/pics/social-media/twitter.png"></a> 
+            <a href="https://github.com/therajatg"><img class="social-media-icon" src="/pics/social-media/github.png"></a> 
+        </div>
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+</html>
