@@ -1,0 +1,17 @@
+.navigation-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--primary-color);
+    }
+
+.nav-logo, .nav-home, .nav-about, .nav-services{
+    color: var(--secondary-color);
+}
+
+.nav-logo{
+    font-family: var(--stylish-font);
+    font-size:xx-large;
+    padding-left: 1rem;
+}
+

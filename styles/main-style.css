@@ -21,6 +21,10 @@
     --success-border-text-color: darkgreen;
 } 
 
+*{
+    color: var(--primary-color);
+}
+
 p{
     word-spacing: 0.2rem;
 }
@@ -31,7 +35,6 @@ a, button{
 
 a{
     text-decoration: none;
-    color: var(--primary-color);
 }
 
 
