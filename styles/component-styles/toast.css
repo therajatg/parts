@@ -1,0 +1,35 @@
+.toast-container{
+    border-radius: 2rem;
+    background-color: var(--secondary-container-color);
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.toast-container>img{
+    height: 30rem;
+    object-fit: cover;
+}
+
+.toast-div{
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    align-self: flex-end;
+    border-radius: 0.4rem;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+}
+
+.toast-div-position{
+    position: absolute;
+}
+
+.toast-div>small, .toast-div>small>span{
+    color: var(--secondary-color);
+}
+
+.toast-div>small>span{
+    padding-left: 4rem;
+    color: var(--info-background-color);
+}
+
