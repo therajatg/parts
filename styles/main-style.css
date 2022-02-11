@@ -20,6 +20,7 @@
     --info-border-text-color: blue;
     --success-background-color: lightgreen;
     --success-border-text-color: darkgreen;
+    --gray-text-color: #808080;
 } 
 
 *{
@@ -90,6 +91,10 @@ body{
     padding: 0 2rem;
     line-height: 1.5rem;
 }
+
+/* .sidebar>ul>li>a, .sidebar>h2, .logo, .nav-links{
+    color: var(--primary-color);
+} */
 
 .footer{
     display: flex;
