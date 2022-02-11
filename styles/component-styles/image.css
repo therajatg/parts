@@ -1,0 +1,29 @@
+.image-container{
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    background-color: var(--secondary-container-color);
+    flex-wrap: wrap; 
+    padding: 2rem;
+}
+
+.img-square{
+    object-fit: cover;
+    height: 20rem;
+    width: 20rem;
+}
+
+.img-round{
+    object-fit: cover;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 999px;
+}
+
+.img-responsive{
+    object-fit: cover;
+    width: 50%;
+    height: auto;
+}
+
+
