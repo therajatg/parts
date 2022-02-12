@@ -28,7 +28,7 @@
 }
 
 .gray-text{
-    color: var(-gray-text-color);
+    color: var(--gray-text-color);
 }
 
 .line-through-text{
