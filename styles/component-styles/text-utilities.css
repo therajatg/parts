@@ -1,0 +1,40 @@
+.text-utilities-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2rem;
+    background-color: var(--secondary-container-color);
+    flex-wrap: wrap; 
+}
+
+.font-size-xs{
+    font-size: 0.8rem;
+}
+
+.font-size-s{
+    font-size: 1rem;
+}
+
+.font-size-m{
+    font-size: 1.5rem;
+}
+
+.font-size-l{
+    font-size: 2rem;
+}
+
+.font-size-xl{
+    font-size: 2.5rem;
+}
+
+.gray-text{
+    color: var(--gray-text-color);
+}
+
+.line-through-text{
+    text-decoration: line-through;
+}
+
+.text-center{
+    margin: auto;
+}
