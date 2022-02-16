@@ -2,7 +2,7 @@
     background-color: var(--secondary-color);
     display: flex;
     flex-direction: column;
-    width: 20rem;
+    max-width: 20rem;
     border: 2px solid var(--primary-color);
     align-items: flex-start;
     flex-wrap: wrap; 
