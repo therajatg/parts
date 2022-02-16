@@ -23,10 +23,6 @@
     --gray-text-color: #808080;
 } 
 
-*{
-    color: var(--primary-color);
-}
-
 p{
     word-spacing: 0.2rem;
 }
@@ -41,17 +37,19 @@ a{
 
 
 a:hover, button:hover{
-    background-color: var(--hover-color);
-    border-radius: 2rem;
+    text-decoration: underline;
 }
 
 body{
     margin: 0;
     padding: 0;
-    color: var(--primary-color);
     font-family: var(--general-font);
     display: flex;
     flex-direction: column;
+}
+
+.desciption>h3{
+    color: var(--primary-color);
 }
 
 .content{
@@ -92,9 +90,9 @@ body{
     line-height: 1.5rem;
 }
 
-/* .sidebar>ul>li>a, .sidebar>h2, .logo, .nav-links{
+.sidebar>ul>li>a, .sidebar>h2, .logo, .nav-links>span>a, .sidebar-and-description, .content, .footer, .footer>.social-media>a{
     color: var(--primary-color);
-} */
+}
 
 .footer{
     display: flex;

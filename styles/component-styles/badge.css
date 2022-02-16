@@ -21,7 +21,7 @@
     transform: translate(-100%, -80%);
 }
 
-.avatar-badge{
+.badge-for-avatar{
     transform: translate(-80%, 110%);
 }
 
@@ -30,7 +30,7 @@
     align-items: center;
 }
 
-.avatar{
+.avatar-for-badge{
     border-radius: 99rem;
     border: 1px solid black;
     width: 6rem;
