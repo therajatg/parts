@@ -15,10 +15,12 @@
     justify-content: center;
     align-content: center;
     color: var(--secondary-color);
+    position: relative;
 }
 
 .icon-badge{
-    transform: translate(-100%, -80%);
+    position: absolute;
+    transform: translate(1.9rem, -1rem);
 }
 
 .badge-for-avatar{
