@@ -35,6 +35,11 @@ a{
     text-decoration: none;
 }
 
+.btn-no-border-no-color{
+    border: none;
+    background: transparent;
+}
+
 
 a:hover, button:hover{
     text-decoration: underline;
