@@ -38,6 +38,7 @@ a{
 .btn-no-border-no-color{
     border: none;
     background: transparent;
+    font-family: var(--general-font);
 }
 
 
