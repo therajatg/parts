@@ -19,8 +19,9 @@
 
 .list-horizontal{
     display: flex;
-    column-gap: 3rem;
+    justify-content: space-around;
     list-style: none;
+    width: 20%;
 }
 
 .stacked-list-item{
