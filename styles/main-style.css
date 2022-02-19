@@ -128,3 +128,7 @@ body{
     font-size: 7rem;
     margin-bottom: 0;
 }
+
+.get-started-page-content a,h1,h3{
+    color: var(--primary-color);
+}
