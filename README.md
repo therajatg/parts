@@ -1,4 +1,4 @@
-# parts 
+# Parts 
 
 Parts is a component library, using which one can build components at rocket speed. Just embed the below link in your HTML and you are ready to go.
 
@@ -218,7 +218,8 @@ You can find more about it at this link: https://parts-builder.netlify.app/docs/
 <hr>
 
 
-Below is a little demo of the Parts:
+Click on the link below to see Parts in action:
+https://parts-builder.netlify.app/
 
 
 
