@@ -4,6 +4,8 @@
 
 @import url('component-styles/index.css');
 
+@import url('utility.css');
+
 :root {
     --primary-color: #111827;          /* For text, buttons, component backgrounds (avatar background), logo */
     --secondary-color: #F3F4F6;
@@ -34,13 +36,6 @@ a, button{
 a{
     text-decoration: none;
 }
-
-.btn-no-border-no-color{
-    border: none;
-    background: transparent;
-    font-family: var(--general-font);
-}
-
 
 a:hover, button:hover{
     text-decoration: underline;
