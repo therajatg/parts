@@ -2,13 +2,75 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: var(--primary-color);
-        padding: 0;
+        /* wny black and not the primary color: bcoz I need it for ecommerce website. */
+        background-color: var(--light-black-color);  
+        padding: 0 1rem 0 1rem;
+        color: var(--secondary-color);
     }
 
-.navigation-container div a{
-    color: var(--secondary-color);
+.nav-search-bar{
+    background-color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30vw; 
+} 
+
+.nav-search-input{
+    width: 26vw;
+    height: 1.8rem;
+    border: none;
 }
+
+.fa-magnifying-glass{
+    color: var(--light-black-color);
+}
+
+.nav-options{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    width: 16vw;
+}
+
+.btn-login{
+    padding: 0 1rem 0 1rem;
+    border-radius: 0.3rem;
+}
+
+.fa-heart, .fa-cart-shopping{
+    height: 2.5rem; 
+    width: 2.5rem;
+}
+
+.icon-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .icon-button:hover {
+    cursor: pointer;
+    background: var(--secondary-container-color);
+    border-radius: 50rem;
+  }
+
+  .icon-button__badge {
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    width: 23px;
+    height: 20px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+  
 
 .navigation-container a{
     color: var(--secondary-color);
@@ -17,8 +79,6 @@
 .nav-logo{
     font-family: var(--stylish-font);
     font-size:xx-large;
-    padding-left: 1rem;
-    padding: 0 1rem;
 }
 
 .nav-home, .nav-services, .nav-about{
