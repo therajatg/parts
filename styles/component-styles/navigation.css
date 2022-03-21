@@ -6,6 +6,7 @@
         background-color: var(--light-black-color);  
         padding: 0 1rem 0 1rem;
         color: var(--secondary-color);
+        color: aliceblue;
     }
 
 .nav-search-bar{
@@ -72,16 +73,8 @@
   }
   
 
-.navigation-container a{
-    color: var(--secondary-color);
-}
-
 .nav-logo{
     font-family: var(--stylish-font);
     font-size:xx-large;
-}
-
-.nav-home, .nav-services, .nav-about{
-    padding: 0;
 }
 

@@ -9,6 +9,14 @@
 @import url('component-styles/index.css');
 
 
+body{
+font-family: var(--general-font);
+display: flex;
+flex-direction: column;
+color: var(--primary-color);
+}
+
+
 .desciption>h3{
     color: var(--primary-color);
 }
@@ -35,6 +43,7 @@
     display: flex;
     flex-direction: row;
     column-gap: 2rem;
+    color: var(--primary-color);
 }
 
 .nav-links > span, .logo{
@@ -49,9 +58,10 @@
     background-color: var(--secondary-color);
     padding: 0 2rem;
     line-height: 1.5rem;
+    
 }
 
-.sidebar>ul>li>a, .sidebar>h2, .logo, .nav-links>span>a, .sidebar-and-description, .content, .footer, .footer>.social-media>a{
+.logo, .content, .footer, .footer>.social-media>a{
     color: var(--primary-color);
 }
 
@@ -84,6 +94,6 @@
     margin-bottom: 0;
 }
 
-.get-started-page-content a,h1,h3{
+.get-started-page-content>h1,h3{
     color: var(--primary-color);
 }

@@ -1,8 +1,3 @@
-:root{
-    --add-to-cart-btn-color: #4267B2;
-    --delete-btn-color: #D11A2A;
-}
-
 .button-container{
     background-color: var(--secondary-container-color);
     display: grid;

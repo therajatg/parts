@@ -8,20 +8,14 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: var(--general-font);
-    display: flex;
-    flex-direction: column;
 }
+
 
 p{
     word-spacing: 0.2rem;
 }
 
-button{
-    cursor: pointer;
-}
-
-a{
+a, button{
     text-decoration: none;
     color: inherit;
     cursor: pointer;
