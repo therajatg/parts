@@ -24,7 +24,11 @@
     --success-border-text-color: darkgreen;
     --gray-text-color: #808080;
     --light-black-color: #121212;
+    --facebook-blue: #1877f2;
+    --default-box-shadow: 5px 5px 10px grey; 
 } 
+
+
 
 p{
     word-spacing: 0.2rem;

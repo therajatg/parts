@@ -1,22 +1,29 @@
 .card-container{
-    background-color: var(--secondary-color);
     display: flex;
     flex-direction: column;
-    max-width: 20rem;
-    border: 2px solid var(--primary-color);
+    max-width: 12rem;
     align-items: flex-start;
     flex-wrap: wrap; 
     border-radius: 0.5rem;
-    padding: 3px 0;
+    padding: 0 1rem 0.5rem 1rem;
+    box-shadow: var(--default-box-shadow);
+    box-sizing: border-box;
 }
 
+.card-container img{
+    width: 100%;
+}
 .card-with-shadow{
     box-shadow: 5px 10px var(--primary-color);
 }
 
-.vertical-card>img{
-    height: auto;
+/* .vertical-card img{
+    height: 90%;
     width: 100%;
+} */
+
+.add-to-cart-button{
+   
 }
 
 .horizontal-card{
@@ -41,11 +48,11 @@
     width: auto;
 }
 
-.cta{
+/* .cta{
     display: flex;
     justify-content: space-around;
     width: 100%;
-}
+} */
 
 .card-text-overlay{
     opacity: 0.4;
