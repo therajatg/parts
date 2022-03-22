@@ -3,3 +3,8 @@
     background: transparent;
     font-family: var(--general-font);
 }
+
+.margin-zero{
+    margin:0;
+}
+    
