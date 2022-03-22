@@ -3,7 +3,7 @@
         justify-content: space-between;
         align-items: center;
         /* wny black and not the primary color: bcoz I need it for ecommerce website. */
-        background-color: var(--light-black-color);  
+        background-color: var(--primary-color);  
         padding: 0 1rem 0 1rem;
         color: var(--secondary-color);
         color: aliceblue;
@@ -24,7 +24,7 @@
 }
 
 .fa-magnifying-glass{
-    color: var(--light-black-color);
+    color: var(--secondary-color);
 }
 
 .nav-options{
@@ -37,6 +37,7 @@
 .btn-login{
     padding: 0 1rem 0 1rem;
     border-radius: 0.3rem;
+    color: var(--primary-color);
 }
 
 .fa-heart, .fa-cart-shopping{
