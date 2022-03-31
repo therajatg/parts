@@ -65,9 +65,6 @@
 .floating-action-button {
   background-color: var(--primary-color);
   display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 999rem;
   width: 2.5rem;
   height: 2.5rem;
 }
