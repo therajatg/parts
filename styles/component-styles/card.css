@@ -1,55 +1,72 @@
-.card-container{
-    display: flex;
-    flex-direction: column;
-    width: 16rem;
-    align-items: flex-start;
-    flex-wrap: wrap; 
-    border-radius: 0.5rem;
-    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
-    box-shadow: var(--default-box-shadow);
-    box-sizing: border-box;
+.card-container {
+  display: flex;
+  flex-direction: column;
+  width: 16rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  box-shadow: var(--default-box-shadow);
+  box-sizing: border-box;
 }
 
-.card-container img{
-    width: 100%;
+.card-container img {
+  width: 100%;
 }
-.card-with-shadow{
-    box-shadow: 5px 10px var(--primary-color);
-}
-
-.horizontal-card{
-    background-color: var(--secondary-color);
-    display: flex;
-    height: 25rem;
-    width: 70%;
-    border: 1px solid var(--primary-color);
-    border-radius: 0.5rem;
-    justify-content: space-between;
+.card-with-shadow {
+  box-shadow: 5px 10px var(--primary-color);
 }
 
-.horizontal-card-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    word-break: normal;
+.horizontal-card {
+  background-color: var(--secondary-color);
+  display: flex;
+  height: 25rem;
+  width: 70%;
+  border: 1px solid var(--primary-color);
+  border-radius: 0.5rem;
+  justify-content: space-between;
 }
 
-.horizontal-card>img{
-    height: 100%;
-    width: auto;
+.horizontal-card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  word-break: normal;
 }
 
-.card-text-overlay{
-    opacity: 0.4;
-    position: relative;
+.horizontal-card > img {
+  height: 100%;
+  width: auto;
 }
 
-.out-of-stock-text{
-    background-color: var(--secondary-container-color);
-    padding: 0.5rem;
-    font-weight: 1000;
-    display: inline-block;
-    position: absolute;
-    z-index: 1;
-    transform: translate(4rem, 10rem);
+.card-text-overlay {
+  opacity: 0.4;
+  position: relative;
+}
+
+.out-of-stock-text {
+  background-color: var(--secondary-container-color);
+  padding: 0.5rem;
+  font-weight: 1000;
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+  transform: translate(4rem, 10rem);
+}
+
+.card-badge {
+  background-color: var(--primary-color);
+  height: 22px;
+  width: 40px;
+  display: flex;
+  border-radius: 4px;
+  justify-content: center;
+  align-content: center;
+  color: var(--secondary-color);
+  position: relative;
+}
+
+.card-icon-badge {
+  position: absolute;
+  transform: translate(13rem, -2rem);
 }
