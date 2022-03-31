@@ -1,68 +1,78 @@
-.button-container{
-    background-color: var(--secondary-container-color);
-    display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
-    column-gap: 5rem;
-    padding: 1rem;
-    border-radius: 1rem;
+.button-container {
+  background-color: var(--secondary-container-color);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  column-gap: 5rem;
+  padding: 1rem;
+  border-radius: 1rem;
 }
 
-.button-text{
-    color: var(--primary-color);
-    font-weight: 600;  
+.button-text {
+  color: var(--primary-color);
+  font-weight: 600;
 }
 
-.button-contained{
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    border-radius: 6px;
-    padding: 0.4rem;
-    font-weight: 600;
+.button-contained {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: 6px;
+  padding: 0.4rem;
+  font-weight: 600;
 }
 
-.button-outlined{
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
-    border-radius: 10px;
-    padding: 0.5rem;
-    font-weight: 600;
+.button-outlined {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border-radius: 10px;
+  padding: 0.5rem;
+  font-weight: 600;
 }
 
-.button-icon-size{
-    height: 20px;
-    width: 20px;
+.button-icon-size {
+  height: 20px;
+  width: 20px;
 }
 
-.add-to-cart-button, .delete-button, .send-button{
-    display: flex;
-    column-gap: 8px;
-    width: 100%;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    
+.add-to-cart-button,
+.delete-button,
+.send-button {
+  display: flex;
+  column-gap: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
 }
 
-.add-to-cart-button{
-    background-color: var(--facebook-blue);
+.add-to-cart-button {
+  background-color: var(--facebook-blue);
 }
 
-.delete-button{
-    background-color: var(--delete-btn-color); 
+.delete-button {
+  background-color: var(--delete-btn-color);
 }
 
-.floating-action-button{
-    background-color: var(--primary-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 999rem;
-    width: 2.5rem;
-    height: 2.5rem;
-    
+.primary-link-btn {
+  color: var(--facebook-blue);
+  font-weight: 600;
 }
 
-.floating-action-button a{
-    font-size: xx-large;
-    color: var(--secondary-color);
+.secondary-link-btn {
+  color: var(--delete-btn-color);
+  font-weight: 600;
+}
+
+.floating-action-button {
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 999rem;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.floating-action-button a {
+  font-size: xx-large;
+  color: var(--secondary-color);
 }
