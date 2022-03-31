@@ -46,6 +46,8 @@
             <p>4. Horizontal card</p>
             <p>5. Card with text overlay</p>
             <p>6. Card for ecommerce website</p>
+            <p>7. Card with dismiss</p>
+            <p>8. Card with badge</p>
         </div>
     </div>
     
@@ -87,7 +89,7 @@
     
     <div class="content">
         <p>3. Vertical Card:</p>
-        <div class="card-container vertical-card">
+        <div class="card-container">
             <img src="/pics/product/woodland shoe.jpg">
             <div>
                 <h2>Woodland Shoes</h2>
@@ -101,7 +103,7 @@
         </div>
         <pre>
             <code class="language-html">
-                &lt;div class="card-container vertical-card"&gt;
+                &lt;div class="card-container"&gt;
                     &lt;img src="/pics/product/woodland shoe.jpg"&gt;
                     &lt;div&gt;
                         &lt;h2&gt;Woodland Shoes&lt;/h2&gt;
@@ -196,19 +198,62 @@
         
         <pre>
             <code class="language-html">
-                &lt;div class="card-container vertical-card card-text-overlay"&gt;
-                    &lt;img src="/pics/product/woodland shoe.jpg"&gt;
-                    &lt;div&gt;
-                        &lt;h2&gt;Woodland Shoes&lt;/h2&gt;
-                        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quae dolor ut reprehenderit&lt;/p&gt;
-                        &lt;h2&gt;&#8377; 4999&lt;/h2&gt;
-                    &lt;/div&gt;
-                    &lt;div class="cta"&gt;
-                        &lt;a href="#" class="button-contained add-to-cart-button"&gt;&lt;i class="fa-solid fa-cart-arrow-down"&gt;&lt;/i&gt;Add To Cart&lt;/a&gt;
-                        &lt;a href="#"class="button-contained delete-button"&gt;&lt;/i&gt;Buy Now&lt;/a&gt;
-                    &lt;/div&gt;
+                &lt;div class="card-container"&gt;
+                    &lt;p&gt;Recommended by: Rajat Gupta&lt;/p&gt;
+                    &lt;img src="/pics/product/book2.jpg"&gt;
+                    &lt;h3 class="margin-zero"&gt;Harry Potter&lt;/h3&gt;
+                    &lt;p class="margin-zero"&gt;&#8377; 4999&lt;/p&gt;
+                    &lt;a href="#" class="button-contained add-to-cart-button"&gt;Add To Cart&lt;/a&gt;
                 &lt;/div&gt;
-                &lt;p class="out-of-stock-text"&gt;OUT OF STOCK&lt;/p&gt;
+            </code>
+        </pre>
+    </div>
+
+    <div class="content">
+        <p>7. Card with dismiss:</p>
+        <div class="card-container">
+            <p class="card-badge card-icon-badge">&#x2716;</p>
+            <p>Recommended by: Rajat Gupta</p>
+            <img src="/pics/product/book2.jpg">
+            <h3 class="margin-zero">Harry Potter</h3>
+            <p class="margin-zero">&#8377; 4999</p>
+            <a href="#" class="button-contained add-to-cart-button">Add To Cart</a>
+        </div>
+        
+        <pre>
+            <code class="language-html">
+                &lt;div class="card-container"&gt;
+                    &lt;p class="card-badge card-icon-badge"&gt;&#x2716;&lt;/p&gt;  
+                    &lt;p&gt;Recommended by: Rajat Gupta&lt;/p&gt;
+                    &lt;img src="/pics/product/book2.jpg"&gt;
+                    &lt;h3 class="margin-zero"&gt;Harry Potter&lt;/h3&gt;
+                    &lt;p class="margin-zero"&gt;&#8377; 4999&lt;/p&gt;
+                    &lt;a href="#" class="button-contained add-to-cart-button"&gt;Add To Cart&lt;/a&gt;
+                &lt;/div&gt;
+            </code>
+        </pre>
+    </div>
+
+    <div class="content">
+        <p>8. Card with badge:</p>
+        <div class="card-container">
+            <p class="card-badge card-icon-badge">4.5&#9734;</p>
+            <p>Recommended by: Rajat Gupta</p>
+            <img src="/pics/product/book2.jpg">
+            <h3 class="margin-zero">Harry Potter</h3>
+            <p class="margin-zero">&#8377; 4999</p>
+            <a href="#" class="button-contained add-to-cart-button">Add To Cart</a>
+        </div>
+        
+        <pre>
+            <code class="language-html">
+                &lt;div class="card-container"&gt;
+                    &lt;p class="card-badge card-icon-badge"&gt;4.5&#9734;&lt;/p&gt;  
+                    &lt;p&gt;Recommended by: Rajat Gupta&lt;/p&gt;
+                    &lt;img src="/pics/product/book2.jpg"&gt;
+                    &lt;h3 class="margin-zero"&gt;Harry Potter&lt;/h3&gt;
+                    &lt;p class="margin-zero"&gt;&#8377; 4999&lt;/p&gt;
+                    &lt;a href="#" class="button-contained add-to-cart-button"&gt;Add To Cart&lt;/a&gt;
                 &lt;/div&gt;
             </code>
         </pre>
