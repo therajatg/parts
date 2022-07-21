@@ -1,6 +1,6 @@
 # Parts 
 
-Parts is a component library, using which one can build components at rocket speed. Just embed the below link in your HTML and you are ready to go.
+Parts is a component library, using which one can build components at rocket speed.
 
 <link
 	rel="stylesheet"
